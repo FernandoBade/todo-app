@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+    <link rel="stylesheet" href="styles/signup.css">
+    <link rel="stylesheet" href="styles/snackbar.css">
+    
+    <title>Cadastro • To-Do Task Manager</title>
+</head>
+
+<body>
+    <main>
+        <section id="signupHolder">
+            <img src="assets/logo-vertical.svg" class="imgSignup">
+            <h1 id="signupTitle">Realizar Cadastro</h1>
+            <form id="formCadastro" autocomplete="off">
+                <label for="inputFirstNameSignup">
+                    <img src="assets/user1.png" class="labelIcon">
+                    <input id="inputFirstNameSignup" type="text" maxlength="50"  placeholder="Nome">
+                </label>
+                <label for="inputLastNameSignup">
+                    <img src="assets/user.png" class="labelIcon">
+                    <input id="inputLastNameSignup" type="text" maxlength="150"  placeholder="Sobrenome">
+                </label>
+                <label for="inputEmailSignup">
+                    <img src="assets/email.png" class="labelIcon">
+                    <input id="inputEmailSignup" type="email"  placeholder="Seu melhor e-mail">
+                </label>
+                <label for="inputPasswordSignup">
+                    <img src="assets/key.png" class="labelIcon">
+                    <input id="inputPasswordSignup" type="password" minlength="6" maxlength="20" required
+                        placeholder="Escolha uma senha">
+                    <span class="material-icons-outlined" id="btnMostrarSenha1">visibility</span>
+                </label>
+                <label for="inputPasswordConfirmSignup">
+                    <img src="assets/key1.png" class="labelIcon">
+                    <input id="inputPasswordConfirmSignup" type="password" minlength="6" maxlength="20" required
+                        placeholder="Repita sua senha">
+                    <span class="material-icons-outlined" id="btnMostrarSenha2">visibility</span>
+                </label>
+                <button id="btnSignup" type="submit" class="btnSignup">Cadastrar</button>
+            </form>
+            <p id="loginAlternate">
+                Já tem conta? <a href="index.html">Clique aqui</a>.
+            </p>
+            </div>
+        </section>
+        <div id="snackbar" class="snackbarEstilo">as dad asd asd sadas</div> 
+    </main>
+
+    <!-- Carregamento dos scripts principais -->
+    <script src="scripts/tools.js"></script>
+    <script src="scripts/signup.js"></script>
+
+</body>
+
+</html>
