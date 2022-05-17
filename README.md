@@ -5,9 +5,9 @@
 - [X] Estrutura do index.html;
 - [x] Estrutura do signup.html;
 - [x] Instalação do SASS;
-- [x] Css base dos formulários;
-- [ ] Validação de login;
-- [ ] Validação do cadastro;
+- [x] CSS base dos formulários;
+- [ ] Validação dos campos de login;
+- [ ] Validação dos campos de cadastro;
 - [ ] Instalação da API Swagger;
 - [ ] Testes e validação da API via Postman;
 - [ ] Fetch, async e await;
